@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/merge-sorted-array
 class Solution:
 
     def merge(self, nums1: list[int], m: int, nums2: list[int], n: int) -> None:
@@ -27,9 +28,3 @@ if __name__ == "__main__":
     a = []
     b = [1,2]
     sol.merge(a, len(a), b, len(b))
-    print(a)
-
-
-
-#assest & defend
-#coderpad
