@@ -13,6 +13,6 @@ class Solution:
         return digits
 
 sol = Solution()
-arr = [1,2,3]
+arr = [9]
 arr = sol.plusOne(arr)
 print(arr)
